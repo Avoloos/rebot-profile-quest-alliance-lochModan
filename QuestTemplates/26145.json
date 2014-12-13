@@ -1,0 +1,95 @@
+{
+  "QuestID": 26145,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-10-26T09:15:37.2219581Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Mountaineer Cobbleflint",
+    "EntryId": 1089,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 38,
+    "Position": "-5865.837 -2637.314 308.9651",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-5952.676 -2881.481 372.7107",
+            "GroundPosition": "0 0 0",
+            "ContinentId": 0
+          },
+          "Name": "Stonesplinter Trogg",
+          "EntryId": 1161
+        },
+        {
+          "Hotspot": {
+            "Position": "-5711.297 -2936.561 366.0054",
+            "GroundPosition": "0 0 0",
+            "IsIndoors": true,
+            "ContinentId": 0
+          },
+          "Name": "Stonesplinter Shaman",
+          "EntryId": 1197
+        },
+        {
+          "Hotspot": {
+            "Position": "-5718.117 -2900.442 366.8704",
+            "GroundPosition": "0 0 0",
+            "IsIndoors": true,
+            "ContinentId": 0
+          },
+          "Name": "Stonesplinter Bonesnapper",
+          "EntryId": 1164
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-6030.575 -2786.797 401.6457",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        },
+        {
+          "Position": "-5957.465 -2853.47 376.9286",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        },
+        {
+          "Position": "-5885.914 -2897.757 368.9573",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        },
+        {
+          "Position": "-5787.085 -2905.793 364.8279",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        },
+        {
+          "Position": "-5741.078 -2916.447 366.0063",
+          "GroundPosition": "0 0 0",
+          "IsIndoors": true,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-5667.479 -2966.057 365.557",
+          "GroundPosition": "0 0 0",
+          "IsIndoors": true,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": true,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

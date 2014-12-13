@@ -1,0 +1,67 @@
+{
+  "QuestID": 26846,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-10-26T13:13:39.8144052Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Scout Dorli",
+    "EntryId": 44200,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 38,
+    "Position": "-4814.8 -2694.29 326.7372",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-4823.042 -2975.055 320.8199",
+            "GroundPosition": "0 0 0",
+            "ContinentId": 0
+          },
+          "Name": "Tunnel Rat Geomancer",
+          "EntryId": 1174
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-4845.249 -2974.482 322.5109",
+          "GroundPosition": "0 0 0",
+          "IsIndoors": true,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-4900.913 -2981.247 318.2119",
+          "GroundPosition": "0 0 0",
+          "IsIndoors": true,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-4956.09 -3004.41 318.729",
+          "GroundPosition": "0 0 0",
+          "IsIndoors": true,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-4991.732 -2961.681 315.427",
+          "GroundPosition": "0 0 0",
+          "IsIndoors": true,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": false,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

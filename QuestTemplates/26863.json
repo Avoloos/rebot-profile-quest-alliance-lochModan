@@ -1,0 +1,69 @@
+{
+  "QuestID": 26863,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-10-26T13:13:37.9873931Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Mountaineer Stormpike",
+    "EntryId": 1343,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 38,
+    "Position": "-4817.901 -2695.613 326.6547",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "CollectObjectsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-4853.59 -2971.316 321.4823",
+            "GroundPosition": "0 0 0",
+            "IsIndoors": true,
+            "ContinentId": 0
+          },
+          "Name": "Miners' League Crates",
+          "EntryId": 271
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-4845.249 -2974.482 322.5109",
+          "GroundPosition": "0 0 0",
+          "IsIndoors": true,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-4900.913 -2981.247 318.2119",
+          "GroundPosition": "0 0 0",
+          "IsIndoors": true,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-4956.09 -3004.41 318.729",
+          "GroundPosition": "0 0 0",
+          "IsIndoors": true,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-4991.732 -2961.681 315.427",
+          "GroundPosition": "0 0 0",
+          "IsIndoors": true,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "IsLoot": true,
+      "OpeningCast": false,
+      "NoMovement": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

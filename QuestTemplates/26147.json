@@ -1,0 +1,80 @@
+{
+  "QuestID": 26147,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-10-26T09:41:21.2259483Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 12,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Mountaineer Wallbang",
+    "EntryId": 1090,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 38,
+    "Position": "-5868.213 -2636.464 308.9572",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-5707.916 -2932.385 366.0057",
+            "GroundPosition": "0 0 0",
+            "IsIndoors": true,
+            "ContinentId": 0
+          },
+          "Name": "Stonesplinter Shaman",
+          "EntryId": 1197
+        },
+        {
+          "Hotspot": {
+            "Position": "-5656.03 -2980.221 353.1757",
+            "GroundPosition": "0 0 0",
+            "IsIndoors": true,
+            "ContinentId": 0
+          },
+          "Name": "Stonesplinter Bonesnapper",
+          "EntryId": 1164
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-5753.372 -2908.477 366.7406",
+          "GroundPosition": "0 0 0",
+          "IsIndoors": true,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-5672.497 -2981.782 355.9792",
+          "GroundPosition": "0 0 0",
+          "IsIndoors": true,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-5582.771 -2969.125 345.9242",
+          "GroundPosition": "0 0 0",
+          "IsIndoors": true,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-5618.651 -2910.577 362.0717",
+          "GroundPosition": "0 0 0",
+          "IsIndoors": true,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": false,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

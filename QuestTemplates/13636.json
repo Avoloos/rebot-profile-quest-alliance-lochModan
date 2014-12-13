@@ -1,0 +1,30 @@
+{
+  "QuestID": 13636,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-10-26T10:20:22.8919502Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Mountaineer Kadrell",
+    "EntryId": 1340,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 38,
+    "Position": "-5344.39 -2960.96 323.8642",
+    "TurnInType": 0,
+    "MyFaction": 2
+  },
+  "QuestEnd": {
+    "ObjectName": "Mountaineer Stormpike",
+    "EntryId": 1343,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 38,
+    "Position": "-4817.901 -2695.613 326.6548",
+    "TurnInType": 0,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": []
+}

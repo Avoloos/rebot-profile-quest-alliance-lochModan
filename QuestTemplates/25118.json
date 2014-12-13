@@ -1,0 +1,73 @@
+{
+  "QuestID": 25118,
+  "Version": 2,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-10-26T10:06:30.0948033Z",
+  "UpdatedOn": "2014-10-26T10:07:38.9275715Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 13,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Dakk Blunderblast",
+    "EntryId": 1777,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 38,
+    "Position": "-5275.263 -2971.022 338.7368",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-5471.578 -3095.434 349.6581",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Forest Lurker",
+          "EntryId": 1195
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-5140.726 -2895.966 334.8218",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-5035.904 -2954.965 339.614",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-4782.591 -2774.795 324.8231",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-4713.808 -2778.889 326.3319",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [
+        "-4953.102 -2863.055 334.9151 39.90288"
+      ],
+      "ForceLoot": false,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

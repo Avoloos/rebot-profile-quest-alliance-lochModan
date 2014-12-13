@@ -1,0 +1,62 @@
+{
+  "QuestID": 26842,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-10-26T10:03:18.2191733Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Mountaineer Kadrell",
+    "EntryId": 1340,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 38,
+    "Position": "-5344.39 -2960.96 323.8647",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-5465.346 -2764.375 362.7442",
+            "GroundPosition": "0 0 0",
+            "ContinentId": 0
+          },
+          "Name": "Mosshide Basher",
+          "EntryId": 44162
+        },
+        {
+          "Hotspot": {
+            "Position": "-5334.689 -2742.566 358.3011",
+            "GroundPosition": "0 0 0",
+            "ContinentId": 0
+          },
+          "Name": "Mosshide Scout",
+          "EntryId": 44161
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-5497.713 -2754.604 362.8881",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        },
+        {
+          "Position": "-5278.617 -2743.621 354.6618",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": true,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "QuestID": 26844,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-10-26T13:03:15.8951003Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 13,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Mountaineer Stormpike",
+    "EntryId": 1343,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 38,
+    "Position": "-4817.901 -2695.613 326.6552",
+    "TurnInType": 0,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-4747.422 -3064.868 308.9858",
+            "GroundPosition": "0 0 0",
+            "ContinentId": 0
+          },
+          "Name": "Tunnel Rat Forager",
+          "EntryId": 1176
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-4755.876 -3059.07 308.6032",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        },
+        {
+          "Position": "-4822.142 -3050.704 312.598",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        },
+        {
+          "Position": "-4767.27 -2835.772 326.7668",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": false,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 2,
+      "RunTime": 5.0
+    },
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-4793.657 -2788.926 325.8574",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Tunnel Rat Surveyor",
+          "EntryId": 1177
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-4814.805 -2973.526 321.2126",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        },
+        {
+          "Position": "-4755.876 -3059.07 308.6032",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        },
+        {
+          "Position": "-4822.142 -3050.704 312.598",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        },
+        {
+          "Position": "-4771.995 -2800.354 321.6724",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": false,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

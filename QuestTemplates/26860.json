@@ -1,0 +1,79 @@
+{
+  "QuestID": 26860,
+  "Version": 3,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-10-26T10:06:30.9690877Z",
+  "UpdatedOn": "2014-10-26T10:12:20.704515Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 12,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Vidra Hearthstove",
+    "EntryId": 1963,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 38,
+    "Position": "-5394.101 -2954.405 322.0584",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-5606.896 -3184.769 327.1097",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Black Bear",
+          "EntryId": 1186
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-5140.726 -2895.966 334.8218",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-5035.904 -2954.965 339.614",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-5010.967 -2840.27 327.8987",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-4862.195 -2809.965 326.0492",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-4782.591 -2774.795 324.8231",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [
+        "-4955.825 -2863.61 335.0017 38.293"
+      ],
+      "ForceLoot": true,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

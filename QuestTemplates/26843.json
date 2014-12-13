@@ -1,0 +1,50 @@
+{
+  "QuestID": 26843,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-10-26T10:23:44.8504729Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 13,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Mountaineer Stormpike",
+    "EntryId": 1343,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 38,
+    "Position": "-4817.901 -2695.613 326.655",
+    "TurnInType": 0,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-5069.87 -2715.07 319.1195",
+            "GroundPosition": "0 0 0",
+            "IsIndoors": true,
+            "ContinentId": 0
+          },
+          "Name": "\"Commander\" Nazrim",
+          "EntryId": 44197
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-5051.216 -2699.298 320.2596",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": false,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

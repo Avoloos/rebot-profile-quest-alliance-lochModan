@@ -1,0 +1,32 @@
+{
+  "QuestID": 26854,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-10-26T09:04:13.9571379Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Pilot Hammerfoot",
+    "EntryId": 1960,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 38,
+    "Position": "-5526.553 -2380.059 400.2231",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "A Dwarven Corpse",
+    "EntryId": 2059,
+    "AdditionalEntryIds": [],
+    "ContinentId": 0,
+    "ZoneId": 1,
+    "Position": "-5579.621 -2156.136 402.0716",
+    "TurnInType": 1,
+    "IsIndoors": true,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": []
+}

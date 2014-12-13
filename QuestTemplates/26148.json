@@ -1,0 +1,52 @@
+{
+  "QuestID": 26148,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-10-26T09:40:02.6076926Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 12,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Captain Rugelfuss",
+    "EntryId": 1092,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 38,
+    "Position": "-5868.018 -2638.677 308.9511",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-5613.181 -2939.681 377.9574",
+            "GroundPosition": "0 0 0",
+            "IsIndoors": true,
+            "ContinentId": 0
+          },
+          "Name": "Grawmug",
+          "EntryId": 42230
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-5630.102 -2921.683 362.7804",
+          "GroundPosition": "0 0 0",
+          "IsIndoors": true,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": false,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}
